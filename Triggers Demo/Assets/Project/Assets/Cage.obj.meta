@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: b55d51e04895a34479cdd8b6ba7cde52
-timeCreated: 1476236725
+guid: 35d43b0af4f206c4d959935017b50932
+timeCreated: 1477078442
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Room
+    100000: Cage
     100002: //RootNode
-    400000: Room
+    400000: Cage
     400002: //RootNode
-    2300000: Room
-    3300000: Room
-    4300000: Room
+    2300000: Cage
+    3300000: Cage
+    4300000: Cage
   materials:
     importMaterials: 1
     materialName: 0
