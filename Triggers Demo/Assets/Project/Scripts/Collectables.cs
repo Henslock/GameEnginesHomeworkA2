@@ -10,7 +10,7 @@ public class Collectables : MonoBehaviour
     Owen Meier  - 100538643    
     */
     public int scoreInc = 10;
-    public AudioSource collectItemAudioSource;
+    //public AudioSource collectItemAudioSource;
 
 
     void OnTriggerEnter(Collider collider)
@@ -19,8 +19,8 @@ public class Collectables : MonoBehaviour
 
         if (player)
         {
-            collectItemAudioSource.Play();
-            collectItemAudioSource.transform.SetParent(null, true);
+            //collectItemAudioSource.Play();
+            //collectItemAudioSource.transform.SetParent(null, true);
             Destroy(gameObject);
 
             player.score += scoreInc;
